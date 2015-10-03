@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyNanoApps</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_first_app">Popular Movies</string>
+    <string name="btn_scores_app">Scores App</string>
+    <string name="btn_library_app">The Library App</string>
+    <string name="btn_ant_terminator_app">Build it Bigger</string>
+    <string name="btn_bacon_app">Bacon Reader</string>
+    <string name="btn_capstone_app">Capstone: My Own App</string>
+    <string name="nanoAppTitle">My Nanodegree Apps\!</string>
+
+</resources>

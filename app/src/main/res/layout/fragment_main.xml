@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:weightSum="1"
+android:layout_gravity="center_horizontal">
+
+    <!-- tools:showIn="@layout/activity_main"
+tools:context=".MainActivityFragment"-->
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/nanoAppTitle"
+    android:id="@+id/textView"
+    android:textColor="@color/abc_primary_text_material_light"
+    android:textSize="@dimen/abc_text_size_headline_material"
+    android:paddingBottom="@dimen/abc_text_size_headline_material"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/abc_text_size_medium_material" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/btn_first_app"
+    android:id="@+id/button2"
+    android:layout_marginTop="@dimen/abc_button_inset_vertical_material"
+    android:textColor="@color/abc_primary_text_material_dark"
+    android:textSize="@dimen/abc_text_size_medium_material"
+    android:background="@color/colorUdacity"
+    android:clickable="true" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/btn_scores_app"
+    android:id="@+id/button3"
+    android:layout_marginTop="@dimen/abc_button_inset_vertical_material"
+    android:textColor="@color/abc_primary_text_material_dark"
+    android:textSize="@dimen/abc_text_size_medium_material"
+    android:clickable="true"
+    android:background="@color/colorUdacity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_library_app"
+        android:id="@+id/button4"
+        android:layout_marginTop="@dimen/abc_button_inset_vertical_material"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:clickable="true"
+        android:background="@color/colorUdacity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_ant_terminator_app"
+        android:id="@+id/button5"
+        android:layout_marginTop="@dimen/abc_button_inset_vertical_material"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:clickable="true"
+        android:background="@color/colorUdacity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_bacon_app"
+        android:id="@+id/button6"
+        android:layout_marginTop="@dimen/abc_button_inset_vertical_material"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:clickable="true"
+        android:background="@color/colorUdacity"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_capstone_app"
+        android:id="@+id/button7"
+        android:layout_marginTop="@dimen/abc_button_inset_vertical_material"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:clickable="true"
+        android:background="#ff2828"/>
+
+</LinearLayout>
